@@ -34,7 +34,9 @@ This project is slightly different than others you can encountered on Codecademy
 Instead of a step-by-step tutorial, this project contains a series of open-ended requirements which describe the project.
 
 Project Goals:
-Create a linear regression model that predicts the outcome for a tennis player based on their playing habits. By analyzing and modeling the Association of Tennis Professionals (ATP) data, you will determine what it takes to be one of the best tennis players in the world.
+Create a linear regression model that predicts the outcome for a tennis player based on their playing habits. 
+By analyzing and modeling the Association of Tennis Professionals (ATP) data, 
+you will determine what it takes to be one of the best tennis players in the world.
 
 Prerequisites:
 In order to complete this project, you should have completed the Linear Regression and Multiple Linear Regression lessons in the Machine Learning Course.

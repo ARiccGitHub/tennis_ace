@@ -598,10 +598,10 @@ def f_combinations(features_list, num):
             indices[j] = indices[j - 1] + 1
         yield list(features_list[i] for i in indices)
 '''
-The fallowing function computes the Winnings vs multy-features coefficients of determination 
-and the actual winnings vs predicted winnings coefficients of correlation relative to the multy-features,
+The fallowing function computes the Winnings vs multi-features coefficients of determination 
+and the actual winnings vs predicted winnings coefficients of correlation relative to the multi-features,
 and saves/returns the coefficients values in a DataFrame.
-It also creates/saves a actual winnings vs predicted winnings scatter plot grid of the multy-features 
+It also creates/saves a actual winnings vs predicted winnings scatter plot grid of the multi-features 
 with relevant coefficients of determination.
 '''
 def multi_features_reg(features_list, num, relevant_score, reg_name):
@@ -609,12 +609,12 @@ def multi_features_reg(features_list, num, relevant_score, reg_name):
     The function:
         * takes the arguments:
             features_list, list data type, single features names list.
-            mum, integer type, the desirer number of features to combine into a multy-feature.
+            mum, integer type, the desirer number of features to combine into a multi-feature.
             relevant_score, float type, set the coefficient of determination value of relevance.
             reg_name, string type, the desirer Multiple Linear Regression name.
-        * computes the Winnings vs multy-features coefficients of determination
+        * computes the Winnings vs multi-features coefficients of determination
             and the actual winnings vs predicted winnings coefficients of correlation, and saves the coefficients in a DataFrame
-        * creates/saves/shows a actual winnings vs predicted winnings scatter plot grid of multy-features
+        * creates/saves/shows a actual winnings vs predicted winnings scatter plot grid of multi-features
             with relevant coefficients of determination.
         * returns a DataFrame of the coefficients of determination and correlation relative to the relevant_score value.
     '''
@@ -715,9 +715,9 @@ def multi_features_reg(features_list, num, relevant_score, reg_name):
     return df
 '''
 
------- Multy-features Linear Regression Positive and Negative Features:
+------ Multi-features Linear Regression Positive and Negative Features:
 
-We want to predict winnings using multy-features combination.
+We want to predict winnings using multi-features combination.
 
 For our dependent variables we will use:
     The Winnings outcome: number of matches won in a year.
