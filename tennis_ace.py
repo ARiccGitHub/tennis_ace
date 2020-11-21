@@ -528,7 +528,7 @@ for i in range(len(four_best_features)):
     plt.scatter(winnings_test, predicted_winnings, c='midnightblue', alpha=0.25)
     plt.xlabel('Actual Winnings', fontsize=15)
     plt.ylabel('Predicted Winnings', fontsize=15)
-    plt.title(f'{four_best_features[i]}\n$R^2$={round(one_feature_scores.Score[i], 2)}', fontsize=15)
+    plt.title(f'{four_best_features[i]}\n$R^2$={round(best_4_f_scores.Score[i], 2)}', fontsize=15)
     # Text-box displaying the the coefficient of correlation relative to each four best feature predicted winnings, r
     plt.text(0, np.max(predicted_winnings),
              f'r={round(winnings_sets_corr.actual_winnings[0], 2)}',
