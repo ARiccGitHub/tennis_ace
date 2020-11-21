@@ -1,5 +1,5 @@
 ﻿Tennis Ace
-My Python Supervise Machine Learning ‘challenging’ Project From:
+My Python Supervised Machine Learning ‘challenging’ Project From:
 
 The Codecademy Data Science course Machine Learning section, supervised machine learning.
 
@@ -74,7 +74,7 @@ My Project layout:
 
 - Investigation and analyses of the given data
 - Simple Linear Regression (given data)
-- Supervise Machine Learning 
+- Supervised Machine Learning 
 		Single Feature Linear Regression Models
 		Multiple Features Linear Regression Models
 	
