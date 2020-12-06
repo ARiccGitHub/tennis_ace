@@ -42,7 +42,7 @@ Prerequisites:
 In order to complete this project, you should have completed the Linear Regression and Multiple Linear Regression lessons in the Machine Learning Course.
 Using Jupyter Notebook as the project code presentation is a personal preference, not a project requirement.
 
-Project Requirements:
+Requirements:
 
 Using supervised machine learning models, test the data to better understand what it takes to be an all-star tennis player.
 
@@ -50,7 +50,7 @@ Using supervised machine learning models, test the data to better understand wha
 
 Links:
 tennis_ace Blog Presentation
-
+https://www.alex-ricciardi.com/post/tennis-ace
 
 ----------------------------------------------------------------------------------------
 
